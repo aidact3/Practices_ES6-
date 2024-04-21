@@ -36,5 +36,6 @@ console.log(newToy)
 // pero sin editar el array inicial. De nuevo, usando spread operatos.
  const colors = ['rojo', 'azul', 'amarillo', 'verde', 'naranja'];
 
- const newColors = [...colors.slice(0, 2), ...colors.slice(3)];
+ const newColors = [...colors];
+ newColors.slice( 2,1 )
  console.log(newColors);
