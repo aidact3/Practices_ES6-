@@ -19,7 +19,7 @@ const exams = [
 const examSum = exams.reduce((acc, exam ) => acc + exam.score,0);
 console.log(examSum)
 
-// 7.2 Dado el mismo array, haz una suma de todos las notas de los examenes de los 
+//! 7.2 Dado el mismo array, haz una suma de todos las notas de los examenes de los 
 // alumnos que esten aprobados usando la función .reduce().
 
 const examSum2 = exams.reduce((acc, exam ) => { 
@@ -31,7 +31,7 @@ const examSum2 = exams.reduce((acc, exam ) => {
 
 console.log(examSum2);
 
-// 7.3 Dado el mismo array, haz la media de las notas de todos los examenes .reduce().
+//! 7.3 Dado el mismo array, haz la media de las notas de todos los examenes .reduce().
 
 const examMean = exams.reduce((acc, exam) => acc + exam.score, 0) / exams.length;
 console.log(examMean);
